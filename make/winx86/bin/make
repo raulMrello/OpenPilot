@@ -12,4 +12,4 @@
 #   http://wiki.openpilot.org/display/Doc/Firmware+Development+on+Windows
 #
 
-mingw32-make.exe $*
+C:/cygwin/bin/make.exe $*
