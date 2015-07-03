@@ -1,0 +1,1177 @@
+Dependencies for Project 'flight', Target 'STM32F405RG': (DO NOT MODIFY !)
+F (./Libraries/CoordinateConversions.c)(0x5593D5F2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\coordinateconversions.o --omf_browse .\uvbuild\coordinateconversions.crf --depend .\uvbuild\coordinateconversions.d)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\libraries\inc\CoordinateConversions.h)(0x55963899)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./Libraries/WorldMagModel.c)(0x5593D5F2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\worldmagmodel.o --omf_browse .\uvbuild\worldmagmodel.crf --depend .\uvbuild\worldmagmodel.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./Libraries/fifo_buffer.c)(0x5593D5F2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\fifo_buffer.o --omf_browse .\uvbuild\fifo_buffer.crf --depend .\uvbuild\fifo_buffer.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (.\libraries\inc\fifo_buffer.h)(0x5593D5F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+F (./Modules/Actuator/actuator.c)(0x5595221E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\actuator.o --omf_browse .\uvbuild\actuator.crf --depend .\uvbuild\actuator.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./Modules/Altitude/altitude.c)(0x5593D5F3)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\altitude.o --omf_browse .\uvbuild\altitude.crf --depend .\uvbuild\altitude.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./Modules/Attitude/attitude.c)(0x5593D5F3)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\attitude.o --omf_browse .\uvbuild\attitude.crf --depend .\uvbuild\attitude.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./Modules/Battery/battery.c)(0x5595221E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\battery.o --omf_browse .\uvbuild\battery.crf --depend .\uvbuild\battery.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./Modules/Example/example.c)(0x5593D5F4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\example.o --omf_browse .\uvbuild\example.crf --depend .\uvbuild\example.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./Modules/Example/examplemodevent.c)(0x5593D5F4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\examplemodevent.o --omf_browse .\uvbuild\examplemodevent.crf --depend .\uvbuild\examplemodevent.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./Modules/Example/examplemodperiodic.c)(0x5593D5F4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\examplemodperiodic.o --omf_browse .\uvbuild\examplemodperiodic.crf --depend .\uvbuild\examplemodperiodic.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./Modules/Example/examplemodthread.c)(0x5593D5F4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\examplemodthread.o --omf_browse .\uvbuild\examplemodthread.crf --depend .\uvbuild\examplemodthread.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./Modules/FirmwareIAP/firmwareiap.c)(0x5593D5F4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\firmwareiap.o --omf_browse .\uvbuild\firmwareiap.crf --depend .\uvbuild\firmwareiap.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./Modules/FlightPlan/flightplan.c)(0x5593D5F4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\flightplan.o --omf_browse .\uvbuild\flightplan.crf --depend .\uvbuild\flightplan.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./Modules/GPS/GPS.c)(0x5595221E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\gps.o --omf_browse .\uvbuild\gps.crf --depend .\uvbuild\gps.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./Modules/GPS/NMEA.c)(0x5593D5F4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\nmea.o --omf_browse .\uvbuild\nmea.crf --depend .\uvbuild\nmea.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./Modules/MK/MKSerial/MKSerial.c)(0x5593D5F4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\mkserial.o --omf_browse .\uvbuild\mkserial.crf --depend .\uvbuild\mkserial.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./Modules/ManualControl/manualcontrol.c)(0x5595221E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\manualcontrol.o --omf_browse .\uvbuild\manualcontrol.crf --depend .\uvbuild\manualcontrol.d)
+I (./Modules/ManualControl/inc/manualcontrol.h)(0x5595221E)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./Modules/Osd/OsdEtStd/OsdEtStd.c)(0x5593D5F4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\osdetstd.o --omf_browse .\uvbuild\osdetstd.crf --depend .\uvbuild\osdetstd.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./Modules/Stabilization/stabilization.c)(0x5595221E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stabilization.o --omf_browse .\uvbuild\stabilization.crf --depend .\uvbuild\stabilization.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./Modules/System/systemmod.c)(0x5595221E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\systemmod.o --omf_browse .\uvbuild\systemmod.crf --depend .\uvbuild\systemmod.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./Modules/Telemetry/telemetry.c)(0x5595221E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\telemetry.o --omf_browse .\uvbuild\telemetry.crf --depend .\uvbuild\telemetry.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./PiOS/Common/pios_adxl345.c)(0x5593D613)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\pios_adxl345.o --omf_browse .\uvbuild\pios_adxl345.crf --depend .\uvbuild\pios_adxl345.d)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./PiOS/Common/pios_bma180.c)(0x5593D613)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\pios_bma180.o --omf_browse .\uvbuild\pios_bma180.crf --depend .\uvbuild\pios_bma180.d)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./PiOS/Common/pios_bmp085.c)(0x5593D613)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\pios_bmp085.o --omf_browse .\uvbuild\pios_bmp085.crf --depend .\uvbuild\pios_bmp085.d)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./PiOS/Common/pios_board_info.c)(0x5593D613)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\pios_board_info.o --omf_browse .\uvbuild\pios_board_info.crf --depend .\uvbuild\pios_board_info.d)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./PiOS/Common/pios_com.c)(0x5595221E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\pios_com.o --omf_browse .\uvbuild\pios_com.crf --depend .\uvbuild\pios_com.d)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./PiOS/Common/pios_crc.c)(0x5593D613)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\pios_crc.o --omf_browse .\uvbuild\pios_crc.crf --depend .\uvbuild\pios_crc.d)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./PiOS/Common/pios_hcsr04.c)(0x5593D614)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\pios_hcsr04.o --omf_browse .\uvbuild\pios_hcsr04.crf --depend .\uvbuild\pios_hcsr04.d)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./PiOS/Common/pios_hmc5843.c)(0x5593D614)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\pios_hmc5843.o --omf_browse .\uvbuild\pios_hmc5843.crf --depend .\uvbuild\pios_hmc5843.d)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./PiOS/Common/pios_i2c_esc.c)(0x5593D614)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\pios_i2c_esc.o --omf_browse .\uvbuild\pios_i2c_esc.crf --depend .\uvbuild\pios_i2c_esc.d)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./PiOS/Common/pios_iap.c)(0x5593D614)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\pios_iap.o --omf_browse .\uvbuild\pios_iap.crf --depend .\uvbuild\pios_iap.d)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./PiOS/Common/pios_sdcard.c)(0x5593D616)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\pios_sdcard.o --omf_browse .\uvbuild\pios_sdcard.crf --depend .\uvbuild\pios_sdcard.d)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./Startup/startup_stm32f40_41xxx_arm.s)(0x55963310)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx--pd "__UVISION_VERSION SETA 514"--list .\startup_stm32f40_41xxx_arm.lst --xref -o .\uvbuild\startup_stm32f40_41xxx_arm.o --depend .\uvbuild\startup_stm32f40_41xxx_arm.d)
+F (./UAVObjects/eventdispatcher.c)(0x5593D61D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\eventdispatcher.o --omf_browse .\uvbuild\eventdispatcher.crf --depend .\uvbuild\eventdispatcher.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./UAVObjects/uavobjectmanager.c)(0x5593D61D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\uavobjectmanager.o --omf_browse .\uvbuild\uavobjectmanager.crf --depend .\uvbuild\uavobjectmanager.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (./UAVTalk/uavtalk.c)(0x5595221F)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\uavtalk.o --omf_browse .\uvbuild\uavtalk.crf --depend .\uvbuild\uavtalk.d)
+I (.\targets\boards\revolution\firmware\inc\openpilot.h)(0x5593D61C)
+I (.\pios\pios.h)(0x5595221F)
+I (.\pios\inc\pios_helpers.h)(0x5593D617)
+I (.\pios\inc\pios_math.h)(0x5593D617)
+I (.\pios\inc\pios_constants.h)(0x5593D616)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476637A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (.\targets\boards\revolution\firmware\inc\pios_config.h)(0x5595221F)
+I (.\pios\osx\inc\pios_board.h)(0x5593D617)
+I (.\pios\inc\pios_debug.h)(0x5593D616)
+I (.\pios\inc\pios_tim_priv.h)(0x5593D617)
+I (.\pios\inc\pios_stm32.h)(0x5593D617)
+I (.\pios\inc\pios_debuglog.h)(0x5593D616)
+I (.\pios\inc\pios_crc.h)(0x5593D616)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\misc.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\misc.o --omf_browse .\uvbuild\misc.crf --depend .\uvbuild\misc.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_adc.o --omf_browse .\uvbuild\stm32f4xx_adc.crf --depend .\uvbuild\stm32f4xx_adc.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_can.o --omf_browse .\uvbuild\stm32f4xx_can.crf --depend .\uvbuild\stm32f4xx_can.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_crc.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_crc.o --omf_browse .\uvbuild\stm32f4xx_crc.crf --depend .\uvbuild\stm32f4xx_crc.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_cryp.o --omf_browse .\uvbuild\stm32f4xx_cryp.crf --depend .\uvbuild\stm32f4xx_cryp.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_aes.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_cryp_aes.o --omf_browse .\uvbuild\stm32f4xx_cryp_aes.crf --depend .\uvbuild\stm32f4xx_cryp_aes.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_cryp_des.o --omf_browse .\uvbuild\stm32f4xx_cryp_des.crf --depend .\uvbuild\stm32f4xx_cryp_des.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_tdes.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_cryp_tdes.o --omf_browse .\uvbuild\stm32f4xx_cryp_tdes.crf --depend .\uvbuild\stm32f4xx_cryp_tdes.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_dac.o --omf_browse .\uvbuild\stm32f4xx_dac.crf --depend .\uvbuild\stm32f4xx_dac.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_dbgmcu.o --omf_browse .\uvbuild\stm32f4xx_dbgmcu.crf --depend .\uvbuild\stm32f4xx_dbgmcu.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_dcmi.o --omf_browse .\uvbuild\stm32f4xx_dcmi.crf --depend .\uvbuild\stm32f4xx_dcmi.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_dma.o --omf_browse .\uvbuild\stm32f4xx_dma.crf --depend .\uvbuild\stm32f4xx_dma.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_exti.o --omf_browse .\uvbuild\stm32f4xx_exti.crf --depend .\uvbuild\stm32f4xx_exti.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_flash.o --omf_browse .\uvbuild\stm32f4xx_flash.crf --depend .\uvbuild\stm32f4xx_flash.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_fsmc.o --omf_browse .\uvbuild\stm32f4xx_fsmc.crf --depend .\uvbuild\stm32f4xx_fsmc.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_gpio.o --omf_browse .\uvbuild\stm32f4xx_gpio.crf --depend .\uvbuild\stm32f4xx_gpio.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_hash.o --omf_browse .\uvbuild\stm32f4xx_hash.crf --depend .\uvbuild\stm32f4xx_hash.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_md5.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_hash_md5.o --omf_browse .\uvbuild\stm32f4xx_hash_md5.crf --depend .\uvbuild\stm32f4xx_hash_md5.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_sha1.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_hash_sha1.o --omf_browse .\uvbuild\stm32f4xx_hash_sha1.crf --depend .\uvbuild\stm32f4xx_hash_sha1.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_i2c.o --omf_browse .\uvbuild\stm32f4xx_i2c.crf --depend .\uvbuild\stm32f4xx_i2c.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_iwdg.o --omf_browse .\uvbuild\stm32f4xx_iwdg.crf --depend .\uvbuild\stm32f4xx_iwdg.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_pwr.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_pwr.o --omf_browse .\uvbuild\stm32f4xx_pwr.crf --depend .\uvbuild\stm32f4xx_pwr.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_rcc.o --omf_browse .\uvbuild\stm32f4xx_rcc.crf --depend .\uvbuild\stm32f4xx_rcc.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_rng.o --omf_browse .\uvbuild\stm32f4xx_rng.crf --depend .\uvbuild\stm32f4xx_rng.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_rtc.o --omf_browse .\uvbuild\stm32f4xx_rtc.crf --depend .\uvbuild\stm32f4xx_rtc.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_sdio.o --omf_browse .\uvbuild\stm32f4xx_sdio.crf --depend .\uvbuild\stm32f4xx_sdio.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_spi.o --omf_browse .\uvbuild\stm32f4xx_spi.crf --depend .\uvbuild\stm32f4xx_spi.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_syscfg.o --omf_browse .\uvbuild\stm32f4xx_syscfg.crf --depend .\uvbuild\stm32f4xx_syscfg.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_tim.o --omf_browse .\uvbuild\stm32f4xx_tim.crf --depend .\uvbuild\stm32f4xx_tim.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_usart.o --omf_browse .\uvbuild\stm32f4xx_usart.crf --depend .\uvbuild\stm32f4xx_usart.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)
+F (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_wwdg.c)(0x5593D61B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\modules\Actuator\inc -I.\modules\Altitude\inc -I.\modules\Attitude\inc -I.\modules\Battery\inc -I.\modules\Example\inc -I.\modules\FirmwareIAP\inc -I.\modules\FlightPlan -I.\modules\GPS\inc -I.\modules\MK\MKSerial\inc -I.\modules\ManualControl\inc -I.\modules\Osd\OsdEtStd -I.\modules\Stabilization\inc -I.\modules\System\inc -I.\modules\Telemetry\inc -I.\pios\inc -I.\Startup -I.\uavobjects\inc -I.\uavtalk\inc -I.\libraries\inc -I.\pios\stm32f4xx\inc -I.\targets\boards\revolution\firmware\inc -I.\pios -I.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc -I.\pios\osx\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F4xx-D__UVISION_VERSION="514" -DSTM32F4XX -DSTM32F40_41xxx-o .\uvbuild\stm32f4xx_wwdg.o --omf_browse .\uvbuild\stm32f4xx_wwdg.crf --depend .\uvbuild\stm32f4xx_wwdg.d)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x5593D61B)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x53BA9774)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x53468DD4)
+I (C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x53468BA2)
+I (.\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x5593D61B)

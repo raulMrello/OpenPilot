@@ -36,6 +36,7 @@
 #include <pios_oplinkrcvr_priv.h>
 #include <taskinfo.h>
 #include <pios_ws2811.h>
+#include <pios_board.h>
 
 
 #ifdef PIOS_INCLUDE_INSTRUMENTATION

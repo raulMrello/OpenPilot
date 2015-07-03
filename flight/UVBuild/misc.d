@@ -1,0 +1,9 @@
+.\uvbuild\misc.o: pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\src\misc.c
+.\uvbuild\misc.o: .\pios\stm32f4xx\libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h
+.\uvbuild\misc.o: C:\Keil_v5\ARM\Inc\ST\STM32F4xx\stm32f4xx.h
+.\uvbuild\misc.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h
+.\uvbuild\misc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\uvbuild\misc.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\uvbuild\misc.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\uvbuild\misc.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h
+.\uvbuild\misc.o: C:\Keil_v5\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h

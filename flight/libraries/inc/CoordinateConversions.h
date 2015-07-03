@@ -29,6 +29,7 @@
 
 #ifndef COORDINATECONVERSIONS_H_
 #define COORDINATECONVERSIONS_H_
+#include "pios.h"
 
 // ****** convert Lat,Lon,Alt to ECEF  ************
 void LLA2ECEF(int32_t LLAi[3], double ECEF[3]);
@@ -97,8 +98,7 @@ void rot_mult(float R[3][3], const float vec[3], float vec_out[3]);
  * @param b
  * @param result
  */
-static inline void matrix_mult_3x3f(float a[3][3], float b[3][3], float result[3][3])
-{
+static inline void matrix_mult_3x3f(float a[3][3], float b[3][3], float result[3][3]){
     result[0][0] = a[0][0] * b[0][0] + a[1][0] * b[0][1] + a[2][0] * b[0][2];
     result[0][1] = a[0][1] * b[0][0] + a[1][1] * b[0][1] + a[2][1] * b[0][2];
     result[0][2] = a[0][2] * b[0][0] + a[1][2] * b[0][1] + a[2][2] * b[0][2];
@@ -112,8 +112,7 @@ static inline void matrix_mult_3x3f(float a[3][3], float b[3][3], float result[3
     result[2][2] = a[0][2] * b[2][0] + a[1][2] * b[2][1] + a[2][2] * b[2][2];
 }
 
-static inline void matrix_inline_scale_3f(float a[3][3], float scale)
-{
+static inline void matrix_inline_scale_3f(float a[3][3], float scale){
     a[0][0] *= scale;
     a[0][1] *= scale;
     a[0][2] *= scale;
@@ -127,8 +126,7 @@ static inline void matrix_inline_scale_3f(float a[3][3], float scale)
     a[2][2] *= scale;
 }
 
-static inline void rot_about_axis_x(const float rotation, float R[3][3])
-{
+static inline void rot_about_axis_x(const float rotation, float R[3][3]){
     float s = sinf(rotation);
     float c = cosf(rotation);
 
